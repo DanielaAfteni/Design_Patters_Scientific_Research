@@ -9,10 +9,14 @@ Example.Main();
 ExampleN.Main();
 Console.WriteLine();
 
-Console.WriteLine();
 ExampleDecorator.Main();
 ExampleNoDecoratorN.Main();
-
 Console.WriteLine();
+
 DesignPatters1.Composite.WithComposite.Client.Main();
 DesignPatters1.Composite.WithoutComposite.ClientN.Main();
+Console.WriteLine();
+
+DesignPatters1.FactoryMethod.WithFactoryMethod.Client.Main();
+DesignPatters1.FactoryMethod.WithoutFactoryMethod.ClientN.Main();
+Console.WriteLine();
