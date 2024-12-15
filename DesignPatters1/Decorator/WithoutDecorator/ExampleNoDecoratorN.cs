@@ -1,18 +1,20 @@
-﻿namespace DesignPatters1.Decorator;
+﻿using DesignPatters1.Decorator.WithoutDecorator;
 
-public class ExampleDecorator
+namespace DesignPatters1.Decorator.WithoutDecorator;
+
+public class ExampleNoDecoratorN
 {
     public static void Main()
     {
-        IFood food = new Sandwich();
-        Console.WriteLine($"Your order: {food.GetDescription()}");
-        Console.WriteLine($"The cost: {food.GetCost()}");
-        
-        food = new CheeseDecorator(food);
+        IFoodN food = new SandwichN();
         Console.WriteLine($"Your order: {food.GetDescription()}");
         Console.WriteLine($"The cost: {food.GetCost()}");
 
-        food = new SpiceDecorator(food);
+        food = new FoodWithCheeseN(food);
+        Console.WriteLine($"Your order: {food.GetDescription()}");
+        Console.WriteLine($"The cost: {food.GetCost()}");
+
+        food = new FoodWithSpicesN(food);
         Console.WriteLine($"Your order: {food.GetDescription()}");
         Console.WriteLine($"The cost: {food.GetCost()}");
     }

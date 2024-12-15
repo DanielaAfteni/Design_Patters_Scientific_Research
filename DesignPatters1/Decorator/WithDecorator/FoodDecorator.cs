@@ -1,4 +1,4 @@
-﻿namespace DesignPatters1.Decorator;
+﻿namespace DesignPatters1.Decorator.WithDecorator;
 
 public abstract class FoodDecorator : IFood
 {
