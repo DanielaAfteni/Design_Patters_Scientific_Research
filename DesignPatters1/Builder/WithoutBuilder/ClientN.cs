@@ -6,21 +6,25 @@ public class ClientN
 {
     public static void Main()
     {
-        Product product = new Product();
+        ProductN basicProduct = new ProductN();
+        basicProduct.Add("PartA1");
 
-        Console.WriteLine("Building product manually:");
-        product.Add("PartA");
-        product.Add("PartB");
-        product.Add("PartC");
+        Console.WriteLine("Standard basic product:");
+        Console.WriteLine(basicProduct.ListParts());
 
-        Console.WriteLine(product.ListParts());
+        ProductN fullProduct = new ProductN();
+        fullProduct.Add("PartA1");
+        fullProduct.Add("PartB1");
+        fullProduct.Add("PartC1");
 
-        Product anotherProduct = new Product();
+        Console.WriteLine("Standard full featured product:");
+        Console.WriteLine(fullProduct.ListParts());
 
-        Console.WriteLine("\nBuilding another product manually:");
-        anotherProduct.Add("PartX");
-        anotherProduct.Add("PartY");
+        ProductN customProduct = new ProductN();
+        customProduct.Add("PartA1");
+        customProduct.Add("PartC1");
 
-        Console.WriteLine(anotherProduct.ListParts());
+        Console.WriteLine("Custom product:");
+        Console.WriteLine(customProduct.ListParts());
     }
 }
