@@ -1,4 +1,4 @@
-﻿namespace DesignPatters1.Prototype;
+﻿namespace DesignPatters1.Prototype.WithProptotype;
 
 public class Circle : IShape
 {

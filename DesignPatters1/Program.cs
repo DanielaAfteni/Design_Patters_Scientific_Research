@@ -1,10 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using DesignPatters1.Decorator;
-using DesignPatters1.Prototype;
+using DesignPatters1.Prototype.WithoutProptotype;
+using DesignPatters1.Prototype.WithProptotype;
 
-Console.WriteLine();
 Example.Main();
+ExampleN.Main();
+Console.WriteLine();
+
 Console.WriteLine();
 ExampleDecorator.Main();
 Console.WriteLine();
