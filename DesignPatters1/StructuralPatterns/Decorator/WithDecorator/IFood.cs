@@ -1,4 +1,4 @@
-﻿namespace DesignPatters1.Decorator.WithDecorator;
+﻿namespace DesignPatters1.StructuralPatterns.Decorator.WithDecorator;
 
 public interface IFood
 {

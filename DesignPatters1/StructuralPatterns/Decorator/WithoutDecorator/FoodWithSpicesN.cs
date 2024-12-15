@@ -1,6 +1,4 @@
-﻿using DesignPatters1.Decorator.WithDecorator;
-
-namespace DesignPatters1.Decorator.WithoutDecorator;
+﻿namespace DesignPatters1.StructuralPatterns.Decorator.WithoutDecorator;
 
 public class FoodWithSpicesN : IFoodN
 {

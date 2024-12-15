@@ -1,6 +1,6 @@
-﻿namespace DesignPatters1.Decorator.WithoutDecorator;
+﻿namespace DesignPatters1.StructuralPatterns.Decorator.WithDecorator;
 
-public class SandwichN : IFoodN
+public class Sandwich : IFood
 {
     public double GetCost()
     {

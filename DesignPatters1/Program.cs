@@ -1,8 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using DesignPatters1.CreationalPatterns.Singleton.WithSingleton;
-using DesignPatters1.Decorator.WithDecorator;
-using DesignPatters1.Decorator.WithoutDecorator;
+using DesignPatters1.StructuralPatterns.Composite.WithComposite;
+using DesignPatters1.StructuralPatterns.Composite.WithoutComposite;
+using DesignPatters1.StructuralPatterns.Decorator.WithDecorator;
+using DesignPatters1.StructuralPatterns.Decorator.WithoutDecorator;
 
 
 DesignPatters1.CreationalPatterns.Prototype.WithProptotype.Example.Main();
@@ -13,8 +15,8 @@ ExampleDecorator.Main();
 ExampleNoDecoratorN.Main();
 Console.WriteLine();
 
-DesignPatters1.Composite.WithComposite.Client.Main();
-DesignPatters1.Composite.WithoutComposite.ClientN.Main();
+DesignPatters1.StructuralPatterns.Composite.WithComposite.Client.Main();
+ClientN.Main();
 Console.WriteLine();
 
 DesignPatters1.CreationalPatterns.FactoryMethod.WithFactoryMethod.Client.Main();
@@ -29,6 +31,10 @@ DesignPatters1.CreationalPatterns.AbstractFactory.WithAbtractFactory.Client.Main
 DesignPatters1.CreationalPatterns.AbstractFactory.WithoutAbtractFactory.ClientN.Main();
 Console.WriteLine();
 
-Client.Main();
 DesignPatters1.CreationalPatterns.Singleton.WithoutSingleton.ClientN.Main();
+DesignPatters1.CreationalPatterns.Singleton.WithSingleton.Client.Main();
+Console.WriteLine();
+
+DesignPatters1.StructuralPatterns.Adapter.WithAdapter.Client.Main();
+DesignPatters1.StructuralPatterns.Adapter.WithoutAdapter.ClientN.Main();
 Console.WriteLine();

@@ -1,4 +1,4 @@
-﻿namespace DesignPatters1.Composite.WithoutComposite;
+﻿namespace DesignPatters1.StructuralPatterns.Composite.WithoutComposite;
 
 public class FileN
 {

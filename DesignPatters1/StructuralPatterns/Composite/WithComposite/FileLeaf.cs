@@ -1,4 +1,4 @@
-﻿namespace DesignPatters1.Composite.WithComposite;
+﻿namespace DesignPatters1.StructuralPatterns.Composite.WithComposite;
 
 public class FileLeaf : FileComponent
 {
