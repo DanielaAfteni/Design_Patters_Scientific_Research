@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using DesignPatters1.CreationalPatterns.Singleton.WithSingleton;
 using DesignPatters1.Decorator.WithDecorator;
 using DesignPatters1.Decorator.WithoutDecorator;
 
@@ -26,4 +27,8 @@ Console.WriteLine();
 
 DesignPatters1.CreationalPatterns.AbstractFactory.WithAbtractFactory.Client.Main();
 DesignPatters1.CreationalPatterns.AbstractFactory.WithoutAbtractFactory.ClientN.Main();
+Console.WriteLine();
+
+Client.Main();
+DesignPatters1.CreationalPatterns.Singleton.WithoutSingleton.ClientN.Main();
 Console.WriteLine();
