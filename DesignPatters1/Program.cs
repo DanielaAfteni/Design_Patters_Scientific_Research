@@ -20,3 +20,6 @@ Console.WriteLine();
 DesignPatters1.FactoryMethod.WithFactoryMethod.Client.Main();
 DesignPatters1.FactoryMethod.WithoutFactoryMethod.ClientN.Main();
 Console.WriteLine();
+
+DesignPatters1.Builder.WithBuilder.Client.Main();
+Console.WriteLine();
