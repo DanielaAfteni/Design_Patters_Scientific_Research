@@ -38,3 +38,7 @@ Console.WriteLine();
 DesignPatters1.StructuralPatterns.Adapter.WithAdapter.Client.Main();
 DesignPatters1.StructuralPatterns.Adapter.WithoutAdapter.ClientN.Main();
 Console.WriteLine();
+
+DesignPatters1.StructuralPatterns.Bridge.WithBrigde.Example.Main();
+DesignPatters1.StructuralPatterns.Bridge.WithoutBrigde.ClientN.Main();  
+Console.WriteLine();
