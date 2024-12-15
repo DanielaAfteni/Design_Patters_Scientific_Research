@@ -24,3 +24,7 @@ Console.WriteLine();
 DesignPatters1.Builder.WithBuilder.Client.Main();
 DesignPatters1.Builder.WithoutBuilder.ClientN.Main();
 Console.WriteLine();
+
+DesignPatters1.AbstractFactory.WithAbtractFactory.Client.Main();
+DesignPatters1.AbstractFactory.WithoutAbtractFactory.ClientN.Main();
+Console.WriteLine();
