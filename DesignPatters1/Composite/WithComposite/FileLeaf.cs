@@ -1,4 +1,4 @@
-﻿namespace DesignPatters1.Composite;
+﻿namespace DesignPatters1.Composite.WithComposite;
 
 public class FileLeaf : FileComponent
 {
@@ -6,6 +6,6 @@ public class FileLeaf : FileComponent
 
     public override void Display(int depth)
     {
-        Console.WriteLine(new String('-', depth) + "File: " + _name);
+        Console.WriteLine(new string('-', depth) + "File: " + _name);
     }
 }

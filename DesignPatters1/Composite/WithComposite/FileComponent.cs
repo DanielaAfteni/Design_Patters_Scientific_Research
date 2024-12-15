@@ -1,12 +1,12 @@
-﻿namespace DesignPatters1.Composite;
+﻿namespace DesignPatters1.Composite.WithComposite;
 
 public class FileComponent
 {
     public string _name { get; set; }
 
     public FileComponent(string name)
-    { 
-        _name = name; 
+    {
+        _name = name;
     }
 
     public virtual void Add(FileComponent component)
@@ -21,6 +21,6 @@ public class FileComponent
 
     public virtual void Display(int depth)
     {
-        Console.WriteLine(new String('-', depth) + _name);
+        Console.WriteLine(new string('-', depth) + _name);
     }
 }

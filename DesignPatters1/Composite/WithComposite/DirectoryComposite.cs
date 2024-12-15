@@ -1,4 +1,4 @@
-﻿namespace DesignPatters1.Composite;
+﻿namespace DesignPatters1.Composite.WithComposite;
 
 public class DirectoryComposite : FileComponent
 {
@@ -17,7 +17,7 @@ public class DirectoryComposite : FileComponent
 
     public override void Display(int depth)
     {
-        Console.WriteLine(new String('-', depth) + "Directory: " + _name);
+        Console.WriteLine(new string('-', depth) + "Directory: " + _name);
         foreach (FileComponent component in _children)
         {
             component.Display(depth + 2);

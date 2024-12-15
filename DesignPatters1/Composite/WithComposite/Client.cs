@@ -1,4 +1,4 @@
-﻿namespace DesignPatters1.Composite;
+﻿namespace DesignPatters1.Composite.WithComposite;
 
 public class Client
 {

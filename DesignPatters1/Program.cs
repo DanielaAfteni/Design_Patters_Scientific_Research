@@ -14,4 +14,5 @@ ExampleDecorator.Main();
 ExampleNoDecoratorN.Main();
 
 Console.WriteLine();
-DesignPatters1.Composite.Client.Main();
+DesignPatters1.Composite.WithComposite.Client.Main();
+DesignPatters1.Composite.WithoutComposite.ClientN.Main();
