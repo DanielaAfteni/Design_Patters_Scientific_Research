@@ -43,6 +43,12 @@ DesignPatters1.StructuralPatterns.Bridge.WithBrigde.Example.Main();
 DesignPatters1.StructuralPatterns.Bridge.WithoutBrigde.ClientN.Main();  
 Console.WriteLine();
 
-DesignPatters1.StructuralPatterns.Facade.WithFacade.Example.Main();  
+DesignPatters1.StructuralPatterns.Facade.WithFacade.Example.Main();
+Console.WriteLine();
+Console.WriteLine();
 DesignPatters1.StructuralPatterns.Facade.WithoutFacade.ClientN.Main();  
+Console.WriteLine();
+
+DesignPatters1.StructuralPatterns.Flyweight.WithFlyweight.Client.Main();
+DesignPatters1.StructuralPatterns.Flyweight.WithoutFlyweight.ClientN.Main();
 Console.WriteLine();

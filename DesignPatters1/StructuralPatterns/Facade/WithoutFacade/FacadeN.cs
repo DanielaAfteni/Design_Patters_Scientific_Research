@@ -11,14 +11,14 @@ public class FacadeN
         Subsystem2 = new Subsystem2N();
     }
 
-    public void Operation()
+    public string Operation()
     {
-        Console.WriteLine("Facade initializes subsystems directly:");
-        Subsystem1.OperationA();
-        Subsystem2.OperationX();
-
-        Console.WriteLine("Facade orders subsystems to perform actions:");
-        Subsystem1.OperationB();
-        Subsystem2.OperationY();
+        string result = "Facade initializes subsystems:\n";
+        result += Subsystem1.Operation1();
+        result += Subsystem2.Operation1();
+        result += "Facade orders subsystems to perform the action:\n";
+        result += Subsystem1.OperationN();
+        result += Subsystem2.OperationZ();
+        return result;
     }
 }

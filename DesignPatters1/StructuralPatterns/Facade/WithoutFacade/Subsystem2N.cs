@@ -2,13 +2,13 @@
 
 public class Subsystem2N
 {
-    public void OperationX()
+    public string Operation1()
     {
-        Console.WriteLine("Subsystem2: Operation X");
+        return "Subsystem2: Get ready!\n";
     }
 
-    public void OperationY()
+    public string OperationZ()
     {
-        Console.WriteLine("Subsystem2: Operation Y");
+        return "Subsystem2: Fire!\n";
     }
 }
