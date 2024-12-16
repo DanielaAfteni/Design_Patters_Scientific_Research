@@ -57,3 +57,7 @@ Console.WriteLine();
 DesignPatters1.StructuralPatterns.Proxy.WithProxy.Example.Main();
 DesignPatters1.StructuralPatterns.Proxy.WithoutProxy.ExampleN.Main();
 Console.WriteLine();
+
+DesignPatters1.BehavioralPattern.ChainOfResponsibility.WithChainOfResponsibility.Example.Main();
+DesignPatters1.BehavioralPattern.ChainOfResponsibility.WithoutChainOfResponsibility.ExampleN.Main();
+Console.WriteLine();
