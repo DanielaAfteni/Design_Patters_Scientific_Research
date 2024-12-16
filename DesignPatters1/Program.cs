@@ -42,3 +42,7 @@ Console.WriteLine();
 DesignPatters1.StructuralPatterns.Bridge.WithBrigde.Example.Main();
 DesignPatters1.StructuralPatterns.Bridge.WithoutBrigde.ClientN.Main();  
 Console.WriteLine();
+
+DesignPatters1.StructuralPatterns.Facade.WithFacade.Example.Main();  
+DesignPatters1.StructuralPatterns.Facade.WithoutFacade.ClientN.Main();  
+Console.WriteLine();
