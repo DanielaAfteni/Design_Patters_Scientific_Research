@@ -61,3 +61,7 @@ Console.WriteLine();
 DesignPatters1.BehavioralPattern.ChainOfResponsibility.WithChainOfResponsibility.Example.Main();
 DesignPatters1.BehavioralPattern.ChainOfResponsibility.WithoutChainOfResponsibility.ExampleN.Main();
 Console.WriteLine();
+
+DesignPatters1.BehavioralPattern.Command.WithCommand.Client.Main();
+DesignPatters1.BehavioralPattern.Command.WithoutCommand.ClientN.Main();
+Console.WriteLine();
